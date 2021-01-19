@@ -1,2 +1,0 @@
-# betclickers
-Bet Clickers
