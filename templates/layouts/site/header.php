@@ -11,7 +11,6 @@
 	<title>
 		<?= $title ?>
 	</title>
-
 	<link rel="apple-touch-icon" sizes="57x57" href="<?= $assets ?>site/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?= $assets ?>site/favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<?= $assets ?>site/favicons/apple-icon-72x72.png">
@@ -29,7 +28,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?= $assets ?>site/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
 
 	<link rel="stylesheet" type="text/css" href="<?= $assets ?>site\widget\main-style.css">
 	<link rel="stylesheet" type="text/css" href="<?= $assets ?>site\widget\widgetCountries.css">

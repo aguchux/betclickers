@@ -32,7 +32,7 @@ if ($Self->auth) {
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="GOLOJAN">
-    <title>Super Odds Admin</title>
+    <title>Admin</title>
     <!-- BEGIN: CSS Assets-->
     <link rel="stylesheet" href="<?= $assets ?>css\pos1.scss">
     <!-- END: CSS Assets-->
