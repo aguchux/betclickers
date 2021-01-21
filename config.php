@@ -50,7 +50,7 @@ define("auth_session_key", "logged_in");
 define("auth_url", "/auth/login");
 define("num_results_on_page", 5);
 
-define("domain", "https://antosplashbet.com/");
+define("domain", "https://betclickers.com/");
 
 define("db_host", "107.182.235.44");
 define("db_user", "zuxvirll_axdir");

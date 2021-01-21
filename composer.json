@@ -1,5 +1,5 @@
 {
-    "name": "betting/antosplashbet",
+    "name": "betting/betclickers",
     "description": "Betting App",
     "type": "project",
     "version": "2.0.0",
@@ -10,9 +10,9 @@
     "license": "BSD",
     "authors": [
         {
-            "name": "SuperOdds",
-            "email": "info@antosplashbet.com",
-            "homepage": "https://antosplashbet.com/",
+            "name": "betclickers",
+            "email": "info@betclickers.com",
+            "homepage": "https://betclickers.com/",
             "role": "Developer"
         }
     ],

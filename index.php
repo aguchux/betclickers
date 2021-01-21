@@ -14,7 +14,7 @@ $Route->add(
 
         $Core = new Apps\Core;
         $Template = new Apps\Template;
-        $Template->assign("title", "Welcome to Anto Splash Bet");
+        $Template->assign("title", "Welcome to Bet Clickers");
         $Template->addheader("layouts.site.header");
         $Template->addfooter("layouts.site.footer");
         $Template->assign("HomeOdds", $Core->HomeOdds(6));
@@ -93,7 +93,7 @@ $Route->add(
 
         $Core = new Apps\Core;
         $Template = new Apps\Template;
-        $Template->assign("title", "Welcome to Supper Odds");
+        $Template->assign("title", "Welcome to Bet Clickers");
         $Template->addheader("layouts.site.header");
         $Template->addfooter("layouts.site.footer");
         $Template->assign("menukey", $page);
@@ -174,7 +174,7 @@ $Route->add(
     '/auth/login',
     function () {
         $Template = new Apps\Template;
-        $Template->assign("title", "Login - Anto Splash Bet");
+        $Template->assign("title", "Login - Bet Clickers");
         $Template->addheader("layouts.admin.auth-header");
         $Template->addfooter("layouts.admin.footer");
         $Template->render("login");
@@ -187,7 +187,7 @@ $Route->add(
     '/auth/fundsout',
     function () {
         $Template = new Apps\Template;
-        $Template->assign("title", "Out of funds - Anto Splash Bet");
+        $Template->assign("title", "Out of funds - Bet Clickers");
         $Template->addheader("layouts.admin.auth-header");
         $Template->addfooter("layouts.admin.footer");
         $Template->render("fundsout");
