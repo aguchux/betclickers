@@ -46,11 +46,11 @@ if ($Self->auth) {
         <div id="invoice-POS">
             <div class="text-center">
                 <center>
-                    <img src="https://supperodds.com/sologo.png" class="my-0" style="width: 100px;">
+                    <img src="https://betclickers.com/sologo.png" class="my-0" style="width: 100px;">
                     <div class="text-3xl">
                         <h2><?= $TransactionInfo->id ?></h2>
                     </div>
-                    <div class="text-gray-600">Anto Splash Bet GAMES</div>
+                    <div class="text-gray-600">Bet Clickers GAMES</div>
                 </center>
             </div>
             <hr class="my-1 p-0" />

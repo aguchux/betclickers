@@ -62,7 +62,7 @@
 				<span class="username">Agent Login</span>
 			</div>
 			<div class="icon message pull_right notify"><a data-fancybox="" data-src="#playbox" href="javascript:;" target="mainframe"></a>MESSAGE</div>
-			<div class="icon livechat pull_right">info@antosplashbet.com</div>
+			<div class="icon livechat pull_right">info@betclickers.com</div>
 		</div>
 
 

@@ -122,7 +122,7 @@ if ($Self->auth) {
         <div class="top-bar-boxed flex items-center">
             <!-- BEGIN: Logo -->
             <a href="/dashboard" class="-intro-x hidden md:flex">
-                <img alt="SupperOdds.com" class="w-10" src="<?= $assets ?>images\logo.png">
+                <img alt="betclickers.com" class="w-10" src="<?= $assets ?>images\logo.png">
                 <span class="text-white text-lg ml-3"> AntoSplashBet </span>
             </a>
             <!-- END: Logo -->
@@ -169,7 +169,7 @@ if ($Self->auth) {
                     <div class="dropdown-box__content box bg-theme-38 dark:bg-dark-6 text-white">
                         <div class="p-4 border-b border-theme-40 dark:border-dark-3">
                             <div class="font-medium"><?= $UserInfo->fullname ?></div>
-                            <div class="text-xs text-theme-41 dark:text-gray-600">Anto Splash Bet <?= ucfirst($UserInfo->role) ?></div>
+                            <div class="text-xs text-theme-41 dark:text-gray-600">Bet Clickers <?= ucfirst($UserInfo->role) ?></div>
                         </div>
                         <div class="p-4 border-b border-theme-40 dark:border-dark-3">
                             <div class="font-medium">Available Balance</div>

@@ -121,7 +121,7 @@ $Route->add(
 
         $Core = new Apps\Core;
         $Template = new Apps\Template;
-        $Template->assign("title", "Welcome to Supper Odds");
+        $Template->assign("title", "Welcome to Bet Clickers");
         $Template->addheader("layouts.site.header");
         $Template->addfooter("layouts.site.footer");
         $Template->assign("menukey", "track");
@@ -291,7 +291,7 @@ $Route->add(
     '/auth/register',
     function () {
         $Template = new Apps\Template;
-        $Template->assign("title", "Register - AntoSplashBet.com");
+        $Template->assign("title", "Register - betclickers.com");
         $Template->addheader("layouts.admin.auth-header");
         $Template->addfooter("layouts.admin.footer");
         $Template->render("register");
@@ -304,7 +304,7 @@ $Route->add(
     '/auth/reset',
     function () {
         $Template = new Apps\Template;
-        $Template->assign("title", "Reset Password - AntoSplashBet.com");
+        $Template->assign("title", "Reset Password - betclickers.com");
         $Template->addheader("layouts.admin.auth-header");
         $Template->addfooter("layouts.admin.footer");
         $Template->render("reset");
@@ -560,7 +560,7 @@ $Route->add('/form/dashboard/order/{oddid}', function ($oddid) {
                             <div class="text-3xl">
                                 <h2><small style="color:#000000;">Game I.D:</small><br /><?= $TransactionInfo->id ?></h2>
                             </div>
-                            <div style="margin: 1px auto;font-size: 150%;">SUPPER ODDS GAMES</div>
+                            <div style="margin: 1px auto;font-size: 150%;">Bet Clickers GAMES</div>
                         </div>
                         <hr class="my-0 p-0" />
                         <div class="text-left" style="margin-left: 0px; font-size: 140%; padding-left:5px">
@@ -849,7 +849,7 @@ $Route->add('/receipt/{transid}/print', function ($transid) {
                 <div class="text-3xl">
                     <h2><small style="color:#000000;">Game I.D:</small><br /><?= $TransactionInfo->id ?></h2>
                 </div>
-                <div style="margin: 1px auto;font-size: 150%;">SUPPER ODDS GAMES</div>
+                <div style="margin: 1px auto;font-size: 150%;">Bet Clickers GAMES</div>
             </div>
             <hr class="my-0 p-0" />
             <div class="text-left" style="margin-left: 0px; font-size: 140%; padding-left:5px">
@@ -931,7 +931,7 @@ $Route->add('/receipt/{transid}/pdf', function ($transid) {
                 <div class="text-3xl">
                     <h2><small style="color:#000000;">Game I.D:</small><br /><?= $TransactionInfo->id ?></h2>
                 </div>
-                <div style="margin: 1px auto;font-size: 150%;">SUPPER ODDS GAMES</div>
+                <div style="margin: 1px auto;font-size: 150%;">Bet Clickers GAMES</div>
             </div>
             <hr class="my-0 p-0" />
             <div class="text-left" style="margin-left: 0px; font-size: 140%; padding-left:5px">

@@ -52,7 +52,7 @@
         <div class="pull_left session2-num">
             <div class="block">
                 <p class="title">To Get a Super Big Win Now!</p>
-                <p class="subtitle">=BIG WIN SUPPERODDS AMOUNT=</p>
+                <p class="subtitle">=BIG WIN AMOUNT=</p>
                 <div class="slots">
                     <div class="dollar">&#x20A6;</div>
                     <div class="num"></div>

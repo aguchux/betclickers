@@ -511,7 +511,7 @@ class Core extends Model
 		$Mailer->toEmail = $email;
 		$Mailer->toName = "{$fullname}";
 		$Mailer->subject = "{$subject}";
-		$Mailer->fromEmail = "notix@supperodds.com";
+		$Mailer->fromEmail = "notix@betclickers.com";
 		$Mailer->fromName = "Supper.Odds";
 		$Mailer->send();
 	}
