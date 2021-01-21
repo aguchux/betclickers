@@ -71,7 +71,7 @@ define("smslive_api_key", "acdd4023-b6af-4479-a8a7-9ee45278c319");
 
 define("smslive_callback_url", "http://betclickers.com/auth/smslive247/callback");
 
-define("notix_name", "Antosplashbet");
+define("notix_name", "betclickers");
 define("notix_email", "antosplashbet@gmail.com");
 
 define("low_credit_limit", 0);
